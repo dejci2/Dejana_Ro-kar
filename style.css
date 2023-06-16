@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+    color: rgb(100, 63, 11);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', "serif";
+    font-size: 20px;
+    line-height: 18px;
+    width: 600px;
+    background-color: antiquewhite;
+    padding: 26px;
+}
+.paragraf_2 {color: darkcyan; background-color: rgba(255, 255, 255, 0.5);}
+.novi_blok {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+}
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 228, 55);
+}
+    span {color: rgb(255, 0, 255);}
+.pozadina {
+    background-image: url("/Users/test/Documents/grf/dm/Slike/mumin.jpg");
+}
+.drugapozadina {
+    background-color: brown;
+}
+@font-face {
+    font-family: "dejanarockar_novoregular";
+    src: url("Dokumenti/dejanarockar_novo-webfont.woff2") format("woff2"),
+    url("Dokumentu/dejanarockar_novo-webfont.woff") format("woff");
+
+} 
+h1, h2 {
+    font-family: 'dejanarockar_novoregular'
+}    
+a:link {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    line-height: 40px;
+    border: 1px solid #000;
+} 
+a:hover {
+    background-color: darkgray;
+}
+img {
+    height: 200px;
+}
+
+ul {	display: inline;
+    padding:20px; 
+        margin-left: auto; 
+        margin-right:auto;  
+        width: 300px;
+        } 
+li {	display:inline; 
+        background-color:LightCoral;
+        padding:20px;
+        border: 2px solid IndianRed;
+    }
+li:active {background-color:IndianRed;} /*kada kliknemo na li mijenja se boja*/
+    
+li a {	
+    display: inline;
+    color:rgb(206, 8, 8); 
+        font-family: "Montserrat", sans-serif; 
+        text-transform: uppercase;
+        }
+li a:link {text-decoration:none;}
+li a:hover {text-decoration:underline;}
